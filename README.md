@@ -123,47 +123,6 @@ Training data uses the following augmentations:
 - Color jittering (brightness, contrast, saturation, hue)
 - Random affine transformations
 
-## Key Features
-
-✅ **Transfer Learning**: Leverages pre-trained ImageNet weights
-✅ **Two-Phase Training**: Optimal convergence with fine-tuning
-✅ **Data Augmentation**: Prevents overfitting on small dataset
-✅ **Comprehensive Evaluation**: Metrics, confusion matrix, feature visualization
-✅ **Real Data**: Uses community plant disease dataset
-✅ **Production Ready**: Model saved for inference
-
-## Files
-
-- `CNN.ipynb` - Main Jupyter notebook with complete pipeline
-- `plant_disease_classifier_resnet18.pth` - Trained model weights
-- `.gitignore` - Git ignore file
-- `README.md` - This file
-
-## Performance Notes
-
-- Model shows conservative bias toward disease detection (better for safety in agriculture)
-- 100% recall for diseased leaves ensures no missed diseases
-- Can be fine-tuned with more data to improve healthy leaf detection
-
-## Future Improvements
-
-- [ ] Expand to multi-class classification (various disease types)
-- [ ] Implement ensemble methods
-- [ ] Add test-time augmentation
-- [ ] Deploy as web service or mobile app
-- [ ] Collect more labeled data for better generalization
-
-## Requirements
-
-- Python 3.7+
-- PyTorch 1.9+
-- Torchvision 0.10+
-- Hugging Face Datasets
-- NumPy, Matplotlib, Seaborn, scikit-learn
-
-## License
-
-This project is open source and available under the MIT License.
 
 ## Acknowledgments
 
